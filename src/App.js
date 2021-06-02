@@ -7,7 +7,6 @@ import {Route, Redirect, Switch, useLocation} from 'react-router-dom';
 import useDarkMode from 'use-dark-mode';
 
 const Home = lazy(() => retry(() => import('./components/Home')));
-const About = lazy(() => retry(() => import('./components/About')));
 const State = lazy(() => retry(() => import('./components/State')));
 const Resources = lazy(() => retry(() => import('./components/Resources')));
 const LanguageSwitcher = lazy(() =>
